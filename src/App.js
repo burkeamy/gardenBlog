@@ -5,16 +5,21 @@ import Header from '../src/components/Header';
 import Container from '../src/components/Container';
 import Row from '../src/components/Row';
 import Wrapper from '../src/components/Wrapper'
-
+import BlogPost from './components/BlogPost';
+import Col from './components/Col';
+import Navbar from './components/Navbar';
 
 class App extends Component {
   render() {
   return (
     <Wrapper>
       <Header />
+      <Navbar/>
       <Container >
         <Row>
-          <p>Hey y'all. This is Amy's garden blog.</p>
+          <Col size = "md-5">
+            <BlogPost/>
+          </Col>
         </Row>
       </Container>
     </Wrapper>
