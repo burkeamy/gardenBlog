@@ -2,4 +2,9 @@
     background-color: green;
     color: black;
     border: 3px red;
+    margin-left: 8%;
+}
+
+#dropdownMenuButton.hover {
+    background-color: chartreuse;
 }

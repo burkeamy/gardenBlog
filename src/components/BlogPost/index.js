@@ -1,19 +1,16 @@
 import React from "react";
 import "./style.css"
-import Col from "../Col";
+import Col from "../Col"
 
-//pokemon cards, for trading and for clicking. alsp for passing props
+
+//blog post from the json object
 function BlogPost(props) {
     return (
-        <Col size = "md-4">
-            <div className = "card">
-                <div className ="img-container" alt="Responsive image">
-                    <span onClick={() => props.changeStatus(props.id)}>
-                        <img alt = {props.name} src = {props.image} />
-                    </span>
-                </div>
-            </div>
+        <Col size = "md-8">
+            <h2>{props}</h2>,
+            <p>{props}</p>
         </Col>
+       
     );
 }
 
