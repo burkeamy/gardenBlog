@@ -1,10 +1,10 @@
-#dropdownMenuButton {
+a {
     background-color: green;
     color: black;
     border: 3px red;
     margin-left: 8%;
 }
 
-#dropdownMenuButton.hover {
+a.hover {
     background-color: chartreuse;
 }

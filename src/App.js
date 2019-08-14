@@ -7,7 +7,7 @@ import Row from '../src/components/Row';
 import Wrapper from '../src/components/Wrapper'
 //import BlogPost from './components/BlogPost';
 //import Col from './components/Col';
-//import Navbar from './components/Navbar';
+import Navbar from './components/Navbar';
 //import post from "./blogpost.json";
 
 class App extends Component {
@@ -22,7 +22,7 @@ class App extends Component {
     <Wrapper>
       <Container>
         <Header />
-    
+        <Navbar />
       </Container>
       <Container >
         <Row>
